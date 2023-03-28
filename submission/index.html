@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        span {
+            white-space: nowrap;
+        }
+        .left-align {
+            text-align: left;
+        }
+        .center-align {
+            text-align: center;
+        }
+        .right-align {
+            text-align: right;
+        }
+        .half-width-hr {
+            width: 50%;
+            margin: auto;
+        }
+        .full-width-hr {
+           width: 100px;
+        }
+        table, th, td {
+           border:1px solid black;
+        }
+        .ml1 {
+            margin-left: 260px;
+        }
+        .ml2 {
+            margin-left: 350px;
+        }
+        .ml3 {
+            margin-left: 200px;
+        }
+        
+    </style>
+    </head>
+    
+        <body>
+        <span>1.Create a HTML page that displays the exact same output. Make sure you stick to standards,for example the &lt;br/&gt; tag should be closed. Also check whether your tags are paired,for example there should be one &lt;P&gt; tag for every &lt;P&gt; tag </span>
+        <p>2.<b> This note in bold.</b></p>
+        <div class="center-align">
+            <p> 3.This is the first centered paragraph.</p>
+        </div>
+        <p>4.This is the second paragraph. It appears on left.</p>
+        <div class="right-align">
+            <p> 5. This is the third paragraph.It appears on right.</p>
+        </div>
+        <h3> 6.This is a level 3 heading.</h3>
+        <div class="right-align">
+            <h5> 7.This is a level 5 heading.</h5>
+        </div>
+        <p>8.Below is a horizontal line with 50% width with respect to the browser width.</p>
+        <hr class="half-width-hr">
+        <p>9. Below is a horizonatl line which is 100 pixels wide.</p>
+        <hr class="full-width-hr">
+        <p><img src="cat.jpeg" style="float: right;width: 500px;">10.Now this is a little tough.The image is displayed on the right side and the text is displayed on the left side.This is done using the "img" tag here, but you can use other tags to achieve the same output.The image has to be 500 pixels wide.</p>
+        <p> <a href="https://www.google.com/">11.Click here to go to Google</a></p>
+        <p> 12.Lists:</p>
+        
+        <dl> 
+            <dt>
+            <ol type="A">
+                <li> Item 1</li>
+                <li> Item 2</li>
+    
+            </ol>
+            
+        </dt>
+           <dt>
+            <dd> 
+                <ol type="I">
+                    <li> Item 2.1</li>
+                    <li> Item 2.2</li>
+                    <li><dd>
+                        <ol type="1">
+                            <li> Item 2.3.1</li>
+                            <li> Item 2.3.2</li>
+                            <li> Item 2.3.3</li>
+                        </ol>
+                    </dd></li>
+                    
+
+                </ol>
+            </dd>
+        </dt>
+        <dt>
+        <ul style="list-style-type:disc;">
+            <li>Item 1</li>
+            <li>Item 2</li>
+          </ul>  
+        </dt>
+        <dt>
+        <dd> 
+            <ul style="list-style-type:circle;">
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+                <li> <dd><ul style="list-style-type:square;">
+                    <li>Item 2.3.1</li>
+                    <li>Item 2.3.2</li>
+                    <li>Item 2.3.3</li>
+                  </ul></dd></li>
+              </ul>  
+              
+        </dd>
+    </dt>
+          
+        </dl>
+        <p> 13.Subscripts: K<sub>2</sub>SO<sub>4</sub>.Al<sub>2</sub>(SO<suB>4</suB>)<suB>3</suB>.24H<sub>2</sub>O</p>
+        <pre>          14.         This
+                                    entire
+                                                line
+                              is       
+                                    written
+                                            without    using
+                      any
+                                            special
+                      charcater. Only one     
+                                                tag    
+                      can help do this.                          
+        </pre>
+        
+
+
+
+
+
+        <p style="font-family: Times; font-size: 30px;">15.This text is written using the font "times" and is 30 pixels big</p>
+        <p> 16.Simple table</p>
+        <table style="width: 10%">
+            <tr>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+            <tr>
+                <td>1.1</td>
+                <td>1.2</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>2.2</td>
+            </tr>
+        </table>
+        <p>17.Weird table</p>
+        <table style="width:10%">
+            <tr>
+              <th rowspan="2"><b><u>something</u></b></th>
+              <td><span><b>something else</b></span></td>
+              <td style="background-color: black; color: white;"><span><b>no idea</b> </span></td>
+          
+            </tr>
+           
+            <tr>
+                <th colspan="2"><span><b>its morbin time</b></span></td></th>
+            </tr>
+            
+          </table>
+        <p style="background-color: red; color: white;"> 18.Add some colors!This line has a red background and white forground.</p>
+        </body>
+    
+</html>
